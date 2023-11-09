@@ -5671,10 +5671,21 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 1410568367}
   - component: {fileID: 1410568366}
   m_Layer: 3
   m_Name: Rock Merged (1)
+=======
+  - component: {fileID: 752905250}
+  - component: {fileID: 752905249}
+  - component: {fileID: 752905248}
+  - component: {fileID: 752905247}
+  - component: {fileID: 752905252}
+  - component: {fileID: 752905251}
+  m_Layer: 0
+  m_Name: GameManager
+>>>>>>> main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6608,6 +6619,7 @@ SpriteRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1560829375}
   m_Enabled: 1
+<<<<<<< HEAD
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -6654,10 +6666,21 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!4 &1560829377
 Transform:
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ddf6902e87a01649863b722fc729705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  choiceButtonPrefab: {fileID: 3869647771038679843, guid: 16bffdaf8b00bb443a064a2bd02db2b4, type: 3}
+  buttonLayoutGroup: {fileID: 506784852}
+--- !u!114 &752905252
+MonoBehaviour:
+>>>>>>> main
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1560829375}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 245.36995, y: -115.50774, z: -7569.3145}
@@ -6668,6 +6691,17 @@ Transform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1572084595
+=======
+  m_GameObject: {fileID: 752905246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91be192fa99dada41b398c7a4ae9a42d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  virtualCamera: {fileID: 643129351}
+  gameCamera: {fileID: 137099907}
+--- !u!1 &779756014
+>>>>>>> main
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7337,10 +7371,18 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 1936267012}
   - component: {fileID: 1936267013}
   m_Layer: 3
   m_Name: Mountains_FG Merged (3)
+=======
+  - component: {fileID: 1217259715}
+  - component: {fileID: 1217259717}
+  - component: {fileID: 1217259718}
+  m_Layer: 0
+  m_Name: cm
+>>>>>>> main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7361,14 +7403,21 @@ Transform:
   m_Father: {fileID: 382848149}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!212 &1936267013
 SpriteRenderer:
   m_ObjectHideFlags: 0
+=======
+--- !u!114 &1217259717
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+>>>>>>> main
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1936267011}
   m_Enabled: 1
+<<<<<<< HEAD
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -7554,6 +7603,30 @@ Transform:
   m_PrefabInstance: {fileID: 1970335622}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2025816340
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1217259718
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217259714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NoiseProfile: {fileID: 11400000, guid: 69ce8388f6785dd4c8c39915efece2f4, type: 2}
+  m_PivotOffset: {x: 0, y: 0, z: 0}
+  m_AmplitudeGain: 0
+  m_FrequencyGain: 1
+  mNoiseOffsets: {x: 0, y: 0, z: 0}
+--- !u!1 &1368397477
+>>>>>>> main
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
